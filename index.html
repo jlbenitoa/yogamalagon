@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bordes</title>
+	<style>
+		#introduccion {
+			background-color: lightblue;
+			border-color: red;
+			border-width: 5px;
+			border-style: dotted;
+			border-top-color: green;
+			border-top-style: solid;
+			border-left-color:yellow;
+			border-left-style: double;
+			border-left-width: 5px;
+		}
+		.comentario {
+			border:3px solid red;			
+			border-radius: 20px;
+			padding:15px;		
+		}
+		table,td,th { 
+			border:2px solid blue;
+			border-collapse: collapse;
+			padding: 5px;
+			text-align: center;
+			vertical-align: center; /* solo funciona en tablas */
+			 }
+		table { width:50%; }
+		th {height: 50px}
+		td { height: 60px }
+		tr:hover { background-color: grey }
+
+		#pie-pagina { background-color: lightgreen;
+					margin-left:50px;
+					margin-top:50px;
+					margin-right: 50px }
+
+	</style>		
+</head>
+<body>
+<h1>Bordes</h1>
+<p id="introduccion">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p class="comentario">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p class="comentario">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2>Bordes en tablas</h2>
+<table>
+	<tr>
+		<th>Grupo</th>
+		<th>Aula</th>
+	</tr>
+	<tr>
+		<td>2ESO-A</td>
+		<td>2</td>
+	</tr>
+	<tr>
+		<td>3ESO-B</td>
+		<td>56</td>
+	</tr>
+	<tr>
+		<td>1SMR</td>
+		<td>28</td>
+	</tr>
+</table>
+<h2>Márgenes</h2>
+<p id="pie-pagina">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+</html>
